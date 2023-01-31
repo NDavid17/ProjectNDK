@@ -4,17 +4,17 @@
 	font-family: monospace;
 }
 
-nav > ul {
+nav ul {
 	list-style: none;
 	background: #333;
 }
 
-nav > ul > li {
+nav ul li {
 	display: inline-block;
 	position: relative;
 }
 
-nav > ul > li > a {
+nav ul li > a {
 	text-shadow: 4px 4px 3px black;
 	display: block;
 	padding: 20px 25px;
@@ -24,7 +24,7 @@ nav > ul > li > a {
 	font-size: 20px;
 }
 
-nav > ul > li > ul.dropdown {
+nav ul li ul.dropdown {
 	width: 100%;
 	background: #333;
 	position: absolute;
@@ -32,11 +32,11 @@ nav > ul > li > ul.dropdown {
 	display: none;
 }
 
-nav > ul > li > a:hover {
+nav ul li > a:hover {
 	background: #333;
 }
 
-nav > ul > li:hover ul.dropdown {
+nav ul li:hover ul.dropdown {
 	display: block;
 }
 
